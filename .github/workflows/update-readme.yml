@@ -5,7 +5,7 @@ on:
     paths:
       - 'baekjoon/python/*.py'
       - 'baekjoon/java/src/main/java/boj/**/*.java'
-      - 'baekjoon/cpp/solutions/*.cpp'
+      - 'baekjoon/cpp/*.cpp'
       - 'swea/java/src/main/java/swea/**/*.java'
       - 'programmers/cpp/*.cpp'
 

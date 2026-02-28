@@ -16,7 +16,7 @@ function parseMetaFromReadme(filePath) {
 }
 
 function getBojCppIds() {
-    const p = path.join(ROOT, 'baekjoon', 'cpp', 'solutions');
+    const p = path.join(ROOT, 'baekjoon', 'cpp');
     if (!fs.existsSync(p)) return new Set();
     return new Set(fs.readdirSync(p).filter(f => f.endsWith('.cpp')).map(f => f.replace('.cpp', '')));
 }
@@ -42,7 +42,7 @@ function getProgCppNames() {
 }
 function buildBojLangTags(id, cppIds, javaIds, pythonIds) {
     const tags = [];
-    if (cppIds.has(id))    tags.push(`[\`C++\`](./baekjoon/cpp/solutions/${id}.cpp)`);
+    if (cppIds.has(id))    tags.push(`[\`C++\`](./baekjoon/cpp/${id}.cpp)`);
     if (javaIds.has(id))   tags.push(`[\`Java\`](./baekjoon/java/src/main/java/boj/boj_${id}/Main.java)`);
     if (pythonIds.has(id)) tags.push(`[\`Python\`](./baekjoon/python/${id}.py)`);
     return tags.join(' ');
