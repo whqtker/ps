@@ -14,7 +14,7 @@ int main() {
 	for (int i = 0; i < test_case; i++)
 	{
 		cin >> x1 >> y1 >> r1 >> x2 >> y2 >> r2;
-		distance = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)); //(x1, y1), (x2, y2)ÀÇ °Å¸®
+		distance = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)); //(x1, y1), (x2, y2)
 
 		if (x1 == x2 && y1 == y2 && r1 == r2)
 		{
