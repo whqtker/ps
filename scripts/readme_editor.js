@@ -117,7 +117,11 @@ async function updateReadme() {
         // 기존 행 캐시 (API 실패 시 폴백용)
         const existingRows = parseExistingBojRows(content);
 
-        const bojRows = [];
+        // 헤더+구분선을 행 배열 앞에 포함 (START 주석 바로 뒤에 완전한 표 구성)
+        const bojRows = [
+            '| 문제 번호 | 문제 | 언어 | 해설 |',
+            '|------|------|------|------|',
+        ];
         for (const id of bojIds) {
             try {
                 const res = await axios.get(`https://solved.ac/api/v3/problem/show?problemId=${id}`);
@@ -147,9 +151,14 @@ async function updateReadme() {
         const progNames = getProgCppNames();
         console.log(`\n프로그래머스: ${progNames.length}개 문제 처리 중...`);
 
-        const progRows = progNames.map(name =>
-            `| ${name} | [\`C++\`](./programmers/cpp/${name}.cpp) |`
-        );
+        const progRows = [
+            '| 문제 | 언어 |',
+            '|------|------|',
+            ...progNames.map(name => {
+                const encoded = encodeURIComponent(name).replace(/%2B/g, '+');
+                return `| ${name} | [\`C++\`](./programmers/cpp/${encoded}.cpp) |`;
+            }),
+        ];
 
         content = replaceSection(content, '<!-- PROG_TABLE_START -->', '<!-- PROG_TABLE_END -->', progRows);
 
@@ -157,9 +166,13 @@ async function updateReadme() {
         const sweaIds = [...getSweaJavaIds()].sort((a, b) => parseInt(a) - parseInt(b));
         console.log(`\nSWEA: ${sweaIds.length}개 문제 처리 중...`);
 
-        const sweaRows = sweaIds.map(id =>
-            `| ${id} | [\`Java\`](./swea/java/src/main/java/swea/swea_${id}/Solution.java) |`
-        );
+        const sweaRows = [
+            '| 문제 번호 | 언어 |',
+            '|------|------|',
+            ...sweaIds.map(id =>
+                `| ${id} | [\`Java\`](./swea/java/src/main/java/swea/swea_${id}/Solution.java) |`
+            ),
+        ];
 
         content = replaceSection(content, '<!-- SWEA_TABLE_START -->', '<!-- SWEA_TABLE_END -->', sweaRows);
 

@@ -3,9 +3,9 @@
 ## 백준
 ![test](https://github.com/whqtker/ps/actions/workflows/update-readme.yml/badge.svg)
 
+<!-- BOJ_TABLE_START -->
 | 문제 번호 | 문제 | 언어 | 해설 |
 |------|------|------|------|
-<!-- BOJ_TABLE_START -->
 | 1000 | <img src="https://static.solved.ac/tier_small/1.svg" width="20" height="20"> [A+B](https://www.acmicpc.net/problem/1000) | [`C++`](./baekjoon/cpp/1000.cpp) [`Python`](./baekjoon/python/1000.py) | [해설](https://whqtker.github.io/posts/백준-1000/) |
 | 1001 | <img src="https://static.solved.ac/tier_small/1.svg" width="20" height="20"> [A-B](https://www.acmicpc.net/problem/1001) | [`C++`](./baekjoon/cpp/1001.cpp) | [해설](https://whqtker.github.io/posts/백준-1001/) |
 | 1002 | <img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20"> [터렛](https://www.acmicpc.net/problem/1002) | [`C++`](./baekjoon/cpp/1002.cpp) | [해설](https://whqtker.github.io/posts/백준-1002/) |
@@ -466,52 +466,52 @@
 
 ## 프로그래머스
 
+<!-- PROG_TABLE_START -->
 | 문제 | 언어 |
 |------|------|
-<!-- PROG_TABLE_START -->
-| k진수에서 소수 개수 구하기 | [`C++`](./programmers/cpp/k진수에서 소수 개수 구하기.cpp) |
-| n+1 카드게임 | [`C++`](./programmers/cpp/n+1 카드게임.cpp) |
-| 개인정보 수집 유효기간 | [`C++`](./programmers/cpp/개인정보 수집 유효기간.cpp) |
-| 거리두기 확인하기 | [`C++`](./programmers/cpp/거리두기 확인하기.cpp) |
-| 경주로 건설 | [`C++`](./programmers/cpp/경주로 건설.cpp) |
-| 광고 삽입 | [`C++`](./programmers/cpp/광고 삽입.cpp) |
-| 두 큐 합 같게 만들기 | [`C++`](./programmers/cpp/두 큐 합 같게 만들기.cpp) |
-| 등산코스 정하기 | [`C++`](./programmers/cpp/등산코스 정하기.cpp) |
-| 메뉴 리뉴얼 | [`C++`](./programmers/cpp/메뉴 리뉴얼.cpp) |
-| 미로 탈출 명령어 | [`C++`](./programmers/cpp/미로 탈출 명령어.cpp) |
-| 보석 쇼핑 | [`C++`](./programmers/cpp/보석 쇼핑.cpp) |
-| 불량 사용자 | [`C++`](./programmers/cpp/불량 사용자.cpp) |
-| 블록 이동하기 | [`C++`](./programmers/cpp/블록 이동하기.cpp) |
-| 사라지는 발판 | [`C++`](./programmers/cpp/사라지는 발판.cpp) |
-| 산 모양 타일링 | [`C++`](./programmers/cpp/산 모양 타일링.cpp) |
-| 성격 유형 검사하기 | [`C++`](./programmers/cpp/성격 유형 검사하기.cpp) |
-| 수식 최대화 | [`C++`](./programmers/cpp/수식 최대화.cpp) |
-| 순위 검색 | [`C++`](./programmers/cpp/순위 검색.cpp) |
-| 숫자 문자열과 영단어 | [`C++`](./programmers/cpp/숫자 문자열과 영단어.cpp) |
-| 신고 결과 받기 | [`C++`](./programmers/cpp/신고 결과 받기.cpp) |
-| 신규 아이디 추천 | [`C++`](./programmers/cpp/신규 아이디 추천.cpp) |
-| 양과 늑대 | [`C++`](./programmers/cpp/양과 늑대.cpp) |
-| 양궁대회 | [`C++`](./programmers/cpp/양궁대회.cpp) |
-| 이모티콘 할인행사 | [`C++`](./programmers/cpp/이모티콘 할인행사.cpp) |
-| 주차 요금 계산 | [`C++`](./programmers/cpp/주차 요금 계산.cpp) |
-| 징검다리 건너기 | [`C++`](./programmers/cpp/징검다리 건너기.cpp) |
-| 카드 짝 맞추기 | [`C++`](./programmers/cpp/카드 짝 맞추기.cpp) |
-| 코딩 테스트 공부 | [`C++`](./programmers/cpp/코딩 테스트 공부.cpp) |
-| 키패드 누르기 | [`C++`](./programmers/cpp/키패드 누르기.cpp) |
-| 택배 배달과 수거하기 | [`C++`](./programmers/cpp/택배 배달과 수거하기.cpp) |
-| 튜플 | [`C++`](./programmers/cpp/튜플.cpp) |
-| 파괴되지 않은 건물 | [`C++`](./programmers/cpp/파괴되지 않은 건물.cpp) |
-| 표 병합 | [`C++`](./programmers/cpp/표 병합.cpp) |
-| 표 편집 | [`C++`](./programmers/cpp/표 편집.cpp) |
-| 표현 가능한 이진트리 | [`C++`](./programmers/cpp/표현 가능한 이진트리.cpp) |
-| 합승 택시 요금 | [`C++`](./programmers/cpp/합승 택시 요금.cpp) |
+| k진수에서 소수 개수 구하기 | [`C++`](./programmers/cpp/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%20%EC%86%8C%EC%88%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.cpp) |
+| n+1 카드게임 | [`C++`](./programmers/cpp/n+1%20%EC%B9%B4%EB%93%9C%EA%B2%8C%EC%9E%84.cpp) |
+| 개인정보 수집 유효기간 | [`C++`](./programmers/cpp/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%20%EC%88%98%EC%A7%91%20%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84.cpp) |
+| 거리두기 확인하기 | [`C++`](./programmers/cpp/%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0.cpp) |
+| 경주로 건설 | [`C++`](./programmers/cpp/%EA%B2%BD%EC%A3%BC%EB%A1%9C%20%EA%B1%B4%EC%84%A4.cpp) |
+| 광고 삽입 | [`C++`](./programmers/cpp/%EA%B4%91%EA%B3%A0%20%EC%82%BD%EC%9E%85.cpp) |
+| 두 큐 합 같게 만들기 | [`C++`](./programmers/cpp/%EB%91%90%20%ED%81%90%20%ED%95%A9%20%EA%B0%99%EA%B2%8C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp) |
+| 등산코스 정하기 | [`C++`](./programmers/cpp/%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4%20%EC%A0%95%ED%95%98%EA%B8%B0.cpp) |
+| 메뉴 리뉴얼 | [`C++`](./programmers/cpp/%EB%A9%94%EB%89%B4%20%EB%A6%AC%EB%89%B4%EC%96%BC.cpp) |
+| 미로 탈출 명령어 | [`C++`](./programmers/cpp/%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%EB%AA%85%EB%A0%B9%EC%96%B4.cpp) |
+| 보석 쇼핑 | [`C++`](./programmers/cpp/%EB%B3%B4%EC%84%9D%20%EC%87%BC%ED%95%91.cpp) |
+| 불량 사용자 | [`C++`](./programmers/cpp/%EB%B6%88%EB%9F%89%20%EC%82%AC%EC%9A%A9%EC%9E%90.cpp) |
+| 블록 이동하기 | [`C++`](./programmers/cpp/%EB%B8%94%EB%A1%9D%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.cpp) |
+| 사라지는 발판 | [`C++`](./programmers/cpp/%EC%82%AC%EB%9D%BC%EC%A7%80%EB%8A%94%20%EB%B0%9C%ED%8C%90.cpp) |
+| 산 모양 타일링 | [`C++`](./programmers/cpp/%EC%82%B0%20%EB%AA%A8%EC%96%91%20%ED%83%80%EC%9D%BC%EB%A7%81.cpp) |
+| 성격 유형 검사하기 | [`C++`](./programmers/cpp/%EC%84%B1%EA%B2%A9%20%EC%9C%A0%ED%98%95%20%EA%B2%80%EC%82%AC%ED%95%98%EA%B8%B0.cpp) |
+| 수식 최대화 | [`C++`](./programmers/cpp/%EC%88%98%EC%8B%9D%20%EC%B5%9C%EB%8C%80%ED%99%94.cpp) |
+| 순위 검색 | [`C++`](./programmers/cpp/%EC%88%9C%EC%9C%84%20%EA%B2%80%EC%83%89.cpp) |
+| 숫자 문자열과 영단어 | [`C++`](./programmers/cpp/%EC%88%AB%EC%9E%90%20%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B3%BC%20%EC%98%81%EB%8B%A8%EC%96%B4.cpp) |
+| 신고 결과 받기 | [`C++`](./programmers/cpp/%EC%8B%A0%EA%B3%A0%20%EA%B2%B0%EA%B3%BC%20%EB%B0%9B%EA%B8%B0.cpp) |
+| 신규 아이디 추천 | [`C++`](./programmers/cpp/%EC%8B%A0%EA%B7%9C%20%EC%95%84%EC%9D%B4%EB%94%94%20%EC%B6%94%EC%B2%9C.cpp) |
+| 양과 늑대 | [`C++`](./programmers/cpp/%EC%96%91%EA%B3%BC%20%EB%8A%91%EB%8C%80.cpp) |
+| 양궁대회 | [`C++`](./programmers/cpp/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C.cpp) |
+| 이모티콘 할인행사 | [`C++`](./programmers/cpp/%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98%20%ED%95%A0%EC%9D%B8%ED%96%89%EC%82%AC.cpp) |
+| 주차 요금 계산 | [`C++`](./programmers/cpp/%EC%A3%BC%EC%B0%A8%20%EC%9A%94%EA%B8%88%20%EA%B3%84%EC%82%B0.cpp) |
+| 징검다리 건너기 | [`C++`](./programmers/cpp/%EC%A7%95%EA%B2%80%EB%8B%A4%EB%A6%AC%20%EA%B1%B4%EB%84%88%EA%B8%B0.cpp) |
+| 카드 짝 맞추기 | [`C++`](./programmers/cpp/%EC%B9%B4%EB%93%9C%20%EC%A7%9D%20%EB%A7%9E%EC%B6%94%EA%B8%B0.cpp) |
+| 코딩 테스트 공부 | [`C++`](./programmers/cpp/%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B3%B5%EB%B6%80.cpp) |
+| 키패드 누르기 | [`C++`](./programmers/cpp/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0.cpp) |
+| 택배 배달과 수거하기 | [`C++`](./programmers/cpp/%ED%83%9D%EB%B0%B0%20%EB%B0%B0%EB%8B%AC%EA%B3%BC%20%EC%88%98%EA%B1%B0%ED%95%98%EA%B8%B0.cpp) |
+| 튜플 | [`C++`](./programmers/cpp/%ED%8A%9C%ED%94%8C.cpp) |
+| 파괴되지 않은 건물 | [`C++`](./programmers/cpp/%ED%8C%8C%EA%B4%B4%EB%90%98%EC%A7%80%20%EC%95%8A%EC%9D%80%20%EA%B1%B4%EB%AC%BC.cpp) |
+| 표 병합 | [`C++`](./programmers/cpp/%ED%91%9C%20%EB%B3%91%ED%95%A9.cpp) |
+| 표 편집 | [`C++`](./programmers/cpp/%ED%91%9C%20%ED%8E%B8%EC%A7%91.cpp) |
+| 표현 가능한 이진트리 | [`C++`](./programmers/cpp/%ED%91%9C%ED%98%84%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.cpp) |
+| 합승 택시 요금 | [`C++`](./programmers/cpp/%ED%95%A9%EC%8A%B9%20%ED%83%9D%EC%8B%9C%20%EC%9A%94%EA%B8%88.cpp) |
 <!-- PROG_TABLE_END -->
 
 ## SWEA
 
+<!-- SWEA_TABLE_START -->
 | 문제 번호 | 언어 |
 |------|------|
-<!-- SWEA_TABLE_START -->
 | 1486 | [`Java`](./swea/java/src/main/java/swea/swea_1486/Solution.java) |
 | 1959 | [`Java`](./swea/java/src/main/java/swea/swea_1959/Solution.java) |
 | 1961 | [`Java`](./swea/java/src/main/java/swea/swea_1961/Solution.java) |

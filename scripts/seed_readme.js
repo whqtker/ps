@@ -55,14 +55,20 @@ function replaceSection(content, startTag, endTag, newRows) {
 }
 
 // ── 메타데이터 수집 ─────────────────────────────────────────────────────
+// 우선순위: 현재 README → TEMP/ps-cpp → baekjoon-python
 const TEMP = process.env.TEMP || process.env.TMP || '/tmp';
-const cppMeta = parseMetaFromReadme(path.join(TEMP, 'ps-cpp', 'README.md'));
-const pyMeta  = parseMetaFromReadme(path.join(ROOT, 'baekjoon-python', 'README.md'));
+const sources = [
+    path.join(ROOT, 'README.md'),
+    path.join(TEMP, 'old_readme.md'),
+    path.join(TEMP, 'ps-cpp', 'README.md'),
+    path.join(ROOT, 'baekjoon-python', 'README.md'),
+];
 
-// 병합 (C++ 우선, Python으로 보완)
-const metaMap = new Map([...cppMeta]);
-for (const [id, val] of pyMeta) {
-    if (!metaMap.has(id)) metaMap.set(id, val);
+const metaMap = new Map();
+for (const src of sources) {
+    for (const [id, val] of parseMetaFromReadme(src)) {
+        if (!metaMap.has(id)) metaMap.set(id, val);
+    }
 }
 
 console.log(`메타데이터 총 ${metaMap.size}개 문제`);
@@ -78,7 +84,10 @@ const bojIds = [...new Set([...cppIds, ...javaIds, ...pythonIds])]
 console.log(`BOJ 총 ${bojIds.length}개 문제`);
 
 // ── BOJ 행 생성 ────────────────────────────────────────────────────────
-const bojRows = [];
+const bojRows = [
+    '| 문제 번호 | 문제 | 언어 | 해설 |',
+    '|------|------|------|------|',
+];
 for (const id of bojIds) {
     const langTags = buildBojLangTags(id, cppIds, javaIds, pythonIds);
     if (metaMap.has(id)) {
@@ -90,15 +99,24 @@ for (const id of bojIds) {
 }
 
 // ── 프로그래머스 행 ────────────────────────────────────────────────────
-const progRows = getProgCppNames().map(name =>
-    `| ${name} | [\`C++\`](./programmers/cpp/${name}.cpp) |`
-);
+const progRows = [
+    '| 문제 | 언어 |',
+    '|------|------|',
+    ...getProgCppNames().map(name => {
+        const encoded = encodeURIComponent(name).replace(/%2B/g, '+');
+        return `| ${name} | [\`C++\`](./programmers/cpp/${encoded}.cpp) |`;
+    }),
+];
 
 // ── SWEA 행 ────────────────────────────────────────────────────────────
 const sweaIds  = [...getSweaJavaIds()].sort((a, b) => parseInt(a) - parseInt(b));
-const sweaRows = sweaIds.map(id =>
-    `| ${id} | [\`Java\`](./swea/java/src/main/java/swea/swea_${id}/Solution.java) |`
-);
+const sweaRows = [
+    '| 문제 번호 | 언어 |',
+    '|------|------|',
+    ...sweaIds.map(id =>
+        `| ${id} | [\`Java\`](./swea/java/src/main/java/swea/swea_${id}/Solution.java) |`
+    ),
+];
 
 // ── README 업데이트 ────────────────────────────────────────────────────
 const readmePath = path.join(ROOT, 'README.md');
