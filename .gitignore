@@ -1,0 +1,21 @@
+# Node
+node_modules/
+package-lock.json
+
+# Gradle (baekjoon/java, swea/java)
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+
+# CMake (baekjoon/cpp, programmers/cpp)
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# OS
+.DS_Store
+Thumbs.db

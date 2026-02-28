@@ -1,0 +1,44 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - 'baekjoon/python/*.py'
+      - 'baekjoon/java/src/main/java/boj/**/*.java'
+      - 'baekjoon/cpp/solutions/*.cpp'
+      - 'swea/java/src/main/java/swea/**/*.java'
+      - 'programmers/cpp/*.cpp'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Run readme_editor.js
+        run: node scripts/readme_editor.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "docs: Update README.md" || exit 0
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PAT }}
+          branch: ${{ github.ref }}

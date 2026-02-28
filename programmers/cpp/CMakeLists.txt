@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.20)
+project(programmers_cpp)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+file(GLOB CPP_FILES "*.cpp")
+list(SORT CPP_FILES)
+list(LENGTH CPP_FILES FILE_COUNT)
+
+set(IDX 0)
+foreach(CPP_FILE ${CPP_FILES})
+    math(EXPR IDX "${IDX}+1")
+    if(IDX LESS 10)
+        set(TARGET_NAME "p00${IDX}")
+    elseif(IDX LESS 100)
+        set(TARGET_NAME "p0${IDX}")
+    else()
+        set(TARGET_NAME "p${IDX}")
+    endif()
+    add_executable(${TARGET_NAME} ${CPP_FILE})
+endforeach()
