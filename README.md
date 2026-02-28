@@ -56,7 +56,7 @@
 | 1246 | <img src="https://static.solved.ac/tier_small/7.svg" width="20" height="20"> [온라인 판매](https://www.acmicpc.net/problem/1246) | [`C++`](./baekjoon/cpp/1246.cpp) | [해설](https://whqtker.github.io/posts/백준-1246/) |
 | 1252 | <img src="https://static.solved.ac/tier_small/4.svg" width="20" height="20"> [이진수 덧셈](https://www.acmicpc.net/problem/1252) | [`C++`](./baekjoon/cpp/1252.cpp) | [해설](https://whqtker.github.io/posts/백준-1252/) |
 | 1253 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [좋다](https://www.acmicpc.net/problem/1253) | [`C++`](./baekjoon/cpp/1253.cpp) | [해설](https://whqtker.github.io/posts/백준-1253/) |
-| 1260 | [1260](https://www.acmicpc.net/problem/1260) | [`Java`](./baekjoon/java/src/main/java/boj/boj_1260/Main.java) | [해설](https://whqtker.github.io/posts/백준-1260/) |
+| 1260 | <img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20"> [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [`Java`](./baekjoon/java/src/main/java/boj/boj_1260/Main.java) | [해설](https://whqtker.github.io/posts/백준-1260/) |
 | 1264 | <img src="https://static.solved.ac/tier_small/2.svg" width="20" height="20"> [모음의 개수](https://www.acmicpc.net/problem/1264) | [`C++`](./baekjoon/cpp/1264.cpp) | [해설](https://whqtker.github.io/posts/백준-1264/) |
 | 1268 | <img src="https://static.solved.ac/tier_small/6.svg" width="20" height="20"> [임시 반장 정하기](https://www.acmicpc.net/problem/1268) | [`C++`](./baekjoon/cpp/1268.cpp) | [해설](https://whqtker.github.io/posts/백준-1268/) |
 | 1308 | <img src="https://static.solved.ac/tier_small/6.svg" width="20" height="20"> [D-Day](https://www.acmicpc.net/problem/1308) | [`C++`](./baekjoon/cpp/1308.cpp) | [해설](https://whqtker.github.io/posts/백준-1308/) |
@@ -123,7 +123,7 @@
 | 1912 | <img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20"> [연속합](https://www.acmicpc.net/problem/1912) | [`C++`](./baekjoon/cpp/1912.cpp) | [해설](https://whqtker.github.io/posts/백준-1912/) |
 | 1915 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [가장 큰 정사각형](https://www.acmicpc.net/problem/1915) | [`C++`](./baekjoon/cpp/1915.cpp) | [해설](https://whqtker.github.io/posts/백준-1915/) |
 | 1916 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [`C++`](./baekjoon/cpp/1916.cpp) [`Java`](./baekjoon/java/src/main/java/boj/boj_1916/Main.java) | [해설](https://whqtker.github.io/posts/백준-1916/) |
-| 1920 | [1920](https://www.acmicpc.net/problem/1920) | [`Java`](./baekjoon/java/src/main/java/boj/boj_1920/Main.java) | [해설](https://whqtker.github.io/posts/백준-1920/) |
+| 1920 | <img src="https://static.solved.ac/tier_small/7.svg" width="20" height="20"> [수 찾기](https://www.acmicpc.net/problem/1920) | [`Java`](./baekjoon/java/src/main/java/boj/boj_1920/Main.java) | [해설](https://whqtker.github.io/posts/백준-1920/) |
 | 1926 | <img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20"> [그림](https://www.acmicpc.net/problem/1926) | [`C++`](./baekjoon/cpp/1926.cpp) | [해설](https://whqtker.github.io/posts/백준-1926/) |
 | 1927 | <img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20"> [최소 힙](https://www.acmicpc.net/problem/1927) | [`C++`](./baekjoon/cpp/1927.cpp) | [해설](https://whqtker.github.io/posts/백준-1927/) |
 | 1931 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [회의실 배정](https://www.acmicpc.net/problem/1931) | [`C++`](./baekjoon/cpp/1931.cpp) | [해설](https://whqtker.github.io/posts/백준-1931/) |
@@ -133,7 +133,7 @@
 | 1941 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [소문난 칠공주](https://www.acmicpc.net/problem/1941) | [`C++`](./baekjoon/cpp/1941.cpp) | [해설](https://whqtker.github.io/posts/백준-1941/) |
 | 1943 | <img src="https://static.solved.ac/tier_small/14.svg" width="20" height="20"> [동전 분배](https://www.acmicpc.net/problem/1943) | [`C++`](./baekjoon/cpp/1943.cpp) | [해설](https://whqtker.github.io/posts/백준-1943/) |
 | 1944 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [복제 로봇](https://www.acmicpc.net/problem/1944) | [`C++`](./baekjoon/cpp/1944.cpp) | [해설](https://whqtker.github.io/posts/백준-1944/) |
-| 1949 | [1949](https://www.acmicpc.net/problem/1949) | [`Python`](./baekjoon/python/1949.py) | [해설](https://whqtker.github.io/posts/백준-1949/) |
+| 1949 | <img src="https://static.solved.ac/tier_small/14.svg" width="20" height="20"> [우수 마을](https://www.acmicpc.net/problem/1949) | [`Python`](./baekjoon/python/1949.py) | [해설](https://whqtker.github.io/posts/백준-1949/) |
 | 1966 | <img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20"> [프린터 큐](https://www.acmicpc.net/problem/1966) | [`C++`](./baekjoon/cpp/1966.cpp) | [해설](https://whqtker.github.io/posts/백준-1966/) |
 | 1967 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [트리의 지름](https://www.acmicpc.net/problem/1967) | [`C++`](./baekjoon/cpp/1967.cpp) | [해설](https://whqtker.github.io/posts/백준-1967/) |
 | 1987 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [알파벳](https://www.acmicpc.net/problem/1987) | [`C++`](./baekjoon/cpp/1987.cpp) | [해설](https://whqtker.github.io/posts/백준-1987/) |
@@ -169,7 +169,7 @@
 | 2252 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [줄 세우기](https://www.acmicpc.net/problem/2252) | [`C++`](./baekjoon/cpp/2252.cpp) [`Python`](./baekjoon/python/2252.py) | [해설](https://whqtker.github.io/posts/백준-2252/) |
 | 2263 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [트리의 순회](https://www.acmicpc.net/problem/2263) | [`C++`](./baekjoon/cpp/2263.cpp) | [해설](https://whqtker.github.io/posts/백준-2263/) |
 | 2293 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [동전 1](https://www.acmicpc.net/problem/2293) | [`C++`](./baekjoon/cpp/2293.cpp) | [해설](https://whqtker.github.io/posts/백준-2293/) |
-| 2294 | [2294](https://www.acmicpc.net/problem/2294) | [`Python`](./baekjoon/python/2294.py) | [해설](https://whqtker.github.io/posts/백준-2294/) |
+| 2294 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [동전 2](https://www.acmicpc.net/problem/2294) | [`Python`](./baekjoon/python/2294.py) | [해설](https://whqtker.github.io/posts/백준-2294/) |
 | 2302 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [극장 좌석](https://www.acmicpc.net/problem/2302) | [`C++`](./baekjoon/cpp/2302.cpp) | [해설](https://whqtker.github.io/posts/백준-2302/) |
 | 2338 | <img src="https://static.solved.ac/tier_small/1.svg" width="20" height="20"> [긴자리 계산](https://www.acmicpc.net/problem/2338) | [`C++`](./baekjoon/cpp/2338.cpp) | [해설](https://whqtker.github.io/posts/백준-2338/) |
 | 2342 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [Dance Dance Revolution](https://www.acmicpc.net/problem/2342) | [`C++`](./baekjoon/cpp/2342.cpp) | [해설](https://whqtker.github.io/posts/백준-2342/) |
@@ -370,7 +370,7 @@
 | 14940 | <img src="https://static.solved.ac/tier_small/10.svg" width="20" height="20"> [쉬운 최단거리](https://www.acmicpc.net/problem/14940) | [`C++`](./baekjoon/cpp/14940.cpp) | [해설](https://whqtker.github.io/posts/백준-14940/) |
 | 15483 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [최소 편집](https://www.acmicpc.net/problem/15483) | [`C++`](./baekjoon/cpp/15483.cpp) | [해설](https://whqtker.github.io/posts/백준-15483/) |
 | 15486 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [퇴사 2](https://www.acmicpc.net/problem/15486) | [`C++`](./baekjoon/cpp/15486.cpp) | [해설](https://whqtker.github.io/posts/백준-15486/) |
-| 15552 | [15552](https://www.acmicpc.net/problem/15552) | [`Java`](./baekjoon/java/src/main/java/boj/boj_15552/Main.java) | [해설](https://whqtker.github.io/posts/백준-15552/) |
+| 15552 | <img src="https://static.solved.ac/tier_small/2.svg" width="20" height="20"> [빠른 A+B](https://www.acmicpc.net/problem/15552) | [`Java`](./baekjoon/java/src/main/java/boj/boj_15552/Main.java) | [해설](https://whqtker.github.io/posts/백준-15552/) |
 | 15624 | <img src="https://static.solved.ac/tier_small/7.svg" width="20" height="20"> [피보나치 수 7](https://www.acmicpc.net/problem/15624) | [`C++`](./baekjoon/cpp/15624.cpp) | [해설](https://whqtker.github.io/posts/백준-15624/) |
 | 15649 | <img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20"> [N과 M (1)](https://www.acmicpc.net/problem/15649) | [`C++`](./baekjoon/cpp/15649.cpp) [`Python`](./baekjoon/python/15649.py) | [해설](https://whqtker.github.io/posts/백준-15649/) |
 | 15650 | <img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20"> [N과 M (2)](https://www.acmicpc.net/problem/15650) | [`C++`](./baekjoon/cpp/15650.cpp) | [해설](https://whqtker.github.io/posts/백준-15650/) |
@@ -409,7 +409,7 @@
 | 17142 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [연구소 3](https://www.acmicpc.net/problem/17142) | [`C++`](./baekjoon/cpp/17142.cpp) | [해설](https://whqtker.github.io/posts/백준-17142/) |
 | 17143 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [낚시왕](https://www.acmicpc.net/problem/17143) | [`C++`](./baekjoon/cpp/17143.cpp) | [해설](https://whqtker.github.io/posts/백준-17143/) |
 | 17144 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | [`C++`](./baekjoon/cpp/17144.cpp) | [해설](https://whqtker.github.io/posts/백준-17144/) |
-| 17182 | [17182](https://www.acmicpc.net/problem/17182) | [`Python`](./baekjoon/python/17182.py) | [해설](https://whqtker.github.io/posts/백준-17182/) |
+| 17182 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [우주 탐사선](https://www.acmicpc.net/problem/17182) | [`Python`](./baekjoon/python/17182.py) | [해설](https://whqtker.github.io/posts/백준-17182/) |
 | 17219 | <img src="https://static.solved.ac/tier_small/7.svg" width="20" height="20"> [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | [`C++`](./baekjoon/cpp/17219.cpp) | [해설](https://whqtker.github.io/posts/백준-17219/) |
 | 17298 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [오큰수](https://www.acmicpc.net/problem/17298) | [`C++`](./baekjoon/cpp/17298.cpp) | [해설](https://whqtker.github.io/posts/백준-17298/) |
 | 17299 | <img src="https://static.solved.ac/tier_small/13.svg" width="20" height="20"> [오등큰수](https://www.acmicpc.net/problem/17299) | [`C++`](./baekjoon/cpp/17299.cpp) | [해설](https://whqtker.github.io/posts/백준-17299/) |
@@ -453,7 +453,7 @@
 | 27866 | <img src="https://static.solved.ac/tier_small/1.svg" width="20" height="20"> [문자와 문자열](https://www.acmicpc.net/problem/27866) | [`C++`](./baekjoon/cpp/27866.cpp) | [해설](https://whqtker.github.io/posts/백준-27866/) |
 | 28075 | <img src="https://static.solved.ac/tier_small/8.svg" width="20" height="20"> [스파이](https://www.acmicpc.net/problem/28075) | [`C++`](./baekjoon/cpp/28075.cpp) | [해설](https://whqtker.github.io/posts/백준-28075/) |
 | 28082 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [기계오리 연구](https://www.acmicpc.net/problem/28082) | [`C++`](./baekjoon/cpp/28082.cpp) | [해설](https://whqtker.github.io/posts/백준-28082/) |
-| 28242 | [28242](https://www.acmicpc.net/problem/28242) | [`Python`](./baekjoon/python/28242.py) | [해설](https://whqtker.github.io/posts/백준-28242/) |
+| 28242 | <img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20"> [수학 선생님의 고민(Hard)](https://www.acmicpc.net/problem/28242) | [`Python`](./baekjoon/python/28242.py) | [해설](https://whqtker.github.io/posts/백준-28242/) |
 | 28707 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [배열 정렬](https://www.acmicpc.net/problem/28707) | [`C++`](./baekjoon/cpp/28707.cpp) | [해설](https://whqtker.github.io/posts/백준-28707/) |
 | 30039 | <img src="https://static.solved.ac/tier_small/16.svg" width="20" height="20"> [Queueueue](https://www.acmicpc.net/problem/30039) | [`C++`](./baekjoon/cpp/30039.cpp) | [해설](https://whqtker.github.io/posts/백준-30039/) |
 | 30645 | <img src="https://static.solved.ac/tier_small/9.svg" width="20" height="20"> [인형 전시](https://www.acmicpc.net/problem/30645) | [`C++`](./baekjoon/cpp/30645.cpp) | [해설](https://whqtker.github.io/posts/백준-30645/) |
