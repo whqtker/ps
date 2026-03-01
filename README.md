@@ -347,6 +347,7 @@
 | 13141 | <img src="https://static.solved.ac/tier_small/16.svg" width="20" height="20"> [Ignition](https://www.acmicpc.net/problem/13141) | [`C++`](./baekjoon/cpp/13141.cpp) | [해설](https://whqtker.github.io/posts/백준-13141/) |
 | 13164 | <img src="https://static.solved.ac/tier_small/11.svg" width="20" height="20"> [행복 유치원](https://www.acmicpc.net/problem/13164) | [`C++`](./baekjoon/cpp/13164.cpp) | [해설](https://whqtker.github.io/posts/백준-13164/) |
 | 13172 | <img src="https://static.solved.ac/tier_small/12.svg" width="20" height="20"> [Σ](https://www.acmicpc.net/problem/13172) | [`C++`](./baekjoon/cpp/13172.cpp) | [해설](https://whqtker.github.io/posts/백준-13172/) |
+| 13306 | <img src="https://static.solved.ac/tier_small/17.svg" width="20" height="20"> [트리](https://www.acmicpc.net/problem/13306) | [`C++`](./baekjoon/cpp/13306.cpp) | [해설](https://whqtker.github.io/posts/백준-13306/) |
 | 13334 | <img src="https://static.solved.ac/tier_small/14.svg" width="20" height="20"> [철로](https://www.acmicpc.net/problem/13334) | [`C++`](./baekjoon/cpp/13334.cpp) | [해설](https://whqtker.github.io/posts/백준-13334/) |
 | 13411 | <img src="https://static.solved.ac/tier_small/7.svg" width="20" height="20"> [하늘에서 정의가 빗발친다!](https://www.acmicpc.net/problem/13411) | [`C++`](./baekjoon/cpp/13411.cpp) | [해설](https://whqtker.github.io/posts/백준-13411/) |
 | 13460 | <img src="https://static.solved.ac/tier_small/15.svg" width="20" height="20"> [구슬 탈출 2](https://www.acmicpc.net/problem/13460) | [`C++`](./baekjoon/cpp/13460.cpp) | [해설](https://whqtker.github.io/posts/백준-13460/) |
